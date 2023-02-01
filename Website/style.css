@@ -55,7 +55,7 @@ body {
   }
 
   .main-list > li {
-    background-color: lightyellow;
+    background-color: lightblue;
     width: 450px;
     height: 90px;
     display: flex;
