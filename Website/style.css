@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+}
+
+
 .container {
     display: grid;
     min-height: 100vh;
@@ -32,7 +37,7 @@
   }
 
   .nav-list > li {
-    background-color: cyan;
+    background-color: lightseagreen;
     width: 300px;
     height: 60px;
     display: flex;
@@ -40,18 +45,33 @@
     align-items: center;
     font-family: "Roboto", sans-serif;
     border-radius: 15px;
+    font-weight: bolder;
   }
 
   main {
     grid-area: main;
     background-color: #202020;
-    color: white;
+    color: black;
+  }
+
+  .main-list > li {
+    background-color: lightyellow;
+    width: 450px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Robot", sans-serif;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    font-weight:bold;
   }
 
   footer {
     grid-area: footer;
     background-color: black;
-    color: white;
+    color: lightseagreen;
     display: flex;
     justify-content: center;
     align-items: center;
