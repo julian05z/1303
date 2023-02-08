@@ -5,27 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+   
+   <script type="module" src="./stpage.js" defer></script>
+    <script
+  src="https://kit.fontawesome.com/e1bef00555.js"
+  crossorigin="anonymous"
+></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="root"></div>
     <div class="container">
       <nav id="nav">
-        <ul class="nav-list">
+        
+        <button class="nav-list" onclick="window.location.reload();">
+          
+            
           <li>
+            
             <a>Lernatelier 1303</a>
+          
           </li>
-        </ul>
+        
+        </button>
+      
       </nav>
       <main id="main">
+
+        <div id="liste"></div>
         <ul class="main-list">
           <li>
             <a>Auf dieser Webseite kann man eine Zahl von 1 - 7 eingeben. Anschliessend werden von diesen Personen Daten ausgegeben.</a>
           </li>
         </ul>
+        <ul id="valuelist"></ul>
+        
       </main>
       <footer>
         <p class="copyright">&copy; 2023 Zurkinden & Neuweiler</p>
       </footer>
     </div>
+
+
+    <script>
+
+    </script>
+    
   </body>
 </html>
